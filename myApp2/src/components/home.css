@@ -1,0 +1,91 @@
+/* #drink-list{
+    padding: 0;
+}
+
+#drink-list li{
+    display: inline-block;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #880E4F;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: #880e4f;
+} */
+
+#List-Drink{
+    text-align: center;
+    background: #474747;
+    height: 50px;
+    padding-top: 25px;
+    color: azure;
+    font-weight: bolder;
+}
+
+#Crud-Drink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    border-left: 1px solid #474747;
+    border-right: 1px solid #474747;
+}
+
+#Crud-Drink span{
+    border-radius: 4px;
+    border: 1px solid #880E4F;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: #880e4f;
+    padding: 3px;
+}
+
+#List-Bahan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* 
+#List-Bahan div{
+    width: 70px
+} */
+
+#add-book{
+    padding-top: 10%;
+}
+
+form .field{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    padding-bottom: 5px;
+}
+
+form button{
+    cursor: pointer;
+}
+
+.listAll{
+    list-style-type: none;
+    list-style-position:inside;
+    margin-left:0;
+    padding:0;
+}
+
+.listAll li{
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #880E4F;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+    color: #880e4f;
+    list-style-position:inside;
+}
+
+.listAll li:hover{
+    background: rgba(241, 73, 171, 0.3);
+}

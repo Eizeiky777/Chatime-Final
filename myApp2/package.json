@@ -1,0 +1,47 @@
+{
+  "name": "nah",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.19",
+    "react": "^16.13.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.0",
+    "react-native": "^0.63.2",
+    "react-native-elements": "^2.0.4",
+    "react-native-vector-icons": "^6.7.0",
+    "react-native-web": "^0.12.0",
+    "react-navigation": "^4.4.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.6"
+  }
+}
